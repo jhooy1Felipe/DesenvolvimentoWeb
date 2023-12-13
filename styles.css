@@ -1,0 +1,28 @@
+body{
+    background-color: #DCDCDC;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.TextS{
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    color: black;
+}
+
+.Button{
+    margin-top: 20%;
+    background-color: #87CEEB;
+    align-items: center;
+}
+
+.CorFundo{
+    background-color: #87CEEB;
+    padding-top: 2%;
+    position: relative;
+}
+
+.Sobre{
+    color: black;
+    margin-top: 1%;
+}

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#87CEEB; /*fundo da a página */
+}
+
+.calculator {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco para o formulário */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #87CEEB; /* Cor de fundo azul para o popup */
+    color: #fff; /* Cor do texto no popup */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff; /* Cor do texto no botão de fechar */
+}
+
+.popup #result {
+    font-size: 18px;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #87CEEB;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+}
+
+
+
+.Name1{
+    color: black;
+}
+
+
